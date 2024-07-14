@@ -1,0 +1,6 @@
+npm install -g @vue/cli
+vue create my-desktop-app
+cd my-desktop-app
+vue add electron-builder
+npm run electron:serve
+npm run electron:build
